@@ -5,6 +5,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .navbar {
     /* background-color: crimson; */
@@ -21,6 +24,7 @@
 }
 
 .navbar .menu li a {
+    display: block;
     color: antiquewhite;
     margin-left: 20px;
     font-size: 18px;
@@ -128,7 +132,7 @@ section {
     padding: 100px 0;
 }
 
-.about, .services, .skills, .team, .contact {
+.about, .services, .skills, .team, .contact, footer{
     font-family: 'poppins', sans-serif;
 }
 
@@ -557,9 +561,21 @@ section .title::after {
 
 
 
+/* footer section styling */
 
-
-
+footer{
+    background:black;
+    padding:20px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color:goldenrod;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
 
 
 

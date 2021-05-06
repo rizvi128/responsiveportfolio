@@ -15,8 +15,27 @@ $('.menu-btn').click(function(){
     $('.navbar .menu').toggleClass("active")
     $('.menu-btn i').toggleClass("active")
 
+})
+
+    //typing style
+let typed= new Typed(".typing",{
+    strings:["Web Developer","Blogger", "Web Designer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+let typed2= new Typed(".typing2",{
+    strings:["Web Developer","Blogger", "Web Designer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+
+
 
 });
+
+
+
 
 
 // owl carousel 
